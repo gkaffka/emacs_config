@@ -72,3 +72,35 @@
          ("C-<" . mc/mark-previous-like-this)
          ("C-c C-w" . mc/mark-all-like-this))
   )
+
+;;===========================================================
+;; El-get
+;;===========================================================
+
+(add-to-list 'load-path "~/.emacs.d/el-get/el-get")
+
+(unless (require 'el-get nil 'noerror)
+  (with-current-buffer
+      (url-retrieve-synchronously
+       "https://raw.githubusercontent.com/dimitri/el-get/master/el-get-install.el")
+    (goto-char (point-max))
+    (eval-print-last-sexp)))
+
+(add-to-list 'el-get-recipe-path "~/.emacs.d/el-get-user/recipes")
+(el-get 'sync)
+
+
+;;===========================================================
+;; Adds more sites to webjump 
+;;===========================================================
+
+(require 'webjump)
+   (global-set-key "\C-cj" 'webjump)
+   (setq webjump-sites
+         (append '(
+    ("StackOverflow" .
+     [simple-query "http://stackoverflow.com"
+		   "http://stackoverflow.com?q=" ""])
+
+		   )
+                 webjump-sample-sites))
