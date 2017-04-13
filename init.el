@@ -100,7 +100,7 @@
          (append '(
     ("StackOverflow" .
      [simple-query "http://stackoverflow.com"
-		   "http://stackoverflow.com?q=" ""])
+		   "http://stackoverflow.com/search?q=" ""])
 
 		   )
                  webjump-sample-sites))
