@@ -24,7 +24,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (multiple-cursors magit elpy material-theme use-package))))
+    (ac-inf-ruby auto-complete inf-ruby xkcd multiple-cursors magit elpy material-theme use-package))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -104,3 +104,11 @@
 
 		   )
                  webjump-sample-sites))
+
+;;===========================================================
+;; Auto-complete for Ruby
+;;===========================================================
+
+(eval-after-load 'auto-complete
+  '(add-to-list 'ac-modes 'inf-ruby-mode))
+(add-hook 'inf-ruby-mode-hook 'ac-inf-ruby-enable)
