@@ -24,7 +24,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (ac-inf-ruby auto-complete inf-ruby xkcd multiple-cursors magit elpy material-theme use-package))))
+    (enh-ruby-mode web-mode ac-inf-ruby auto-complete inf-ruby xkcd multiple-cursors magit elpy material-theme use-package))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -112,3 +112,10 @@
 (eval-after-load 'auto-complete
   '(add-to-list 'ac-modes 'inf-ruby-mode))
 (add-hook 'inf-ruby-mode-hook 'ac-inf-ruby-enable)
+
+
+;;===========================================================
+;; Puts the Backup Files in a different directory
+;;===========================================================
+
+(setq backup-directory-alist `(("." . "~/.saves")))
