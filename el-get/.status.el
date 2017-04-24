@@ -19,4 +19,11 @@
 		      (dolist
 			  (feat feats)
 			(unload-feature feat t))))
-		  (require 'el-get)))))
+		  (require 'el-get))))
+ (inf-ruby status "installed" recipe
+	   (:name inf-ruby :description "Inferior Ruby Mode - ruby process in a buffer." :type github :pkgname "nonsequitur/inf-ruby"))
+ (robe-mode status "installed" recipe
+	    (:name robe-mode :type github :description "Code navigation, documentation lookup and completion for Ruby" :pkgname "dgutov/robe" :website "https://github.com/dgutov/robe" :depends
+		   (inf-ruby)
+		   :post-init
+		   (add-hook 'ruby-mode-hook 'robe-mode))))

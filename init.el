@@ -24,7 +24,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (enh-ruby-mode web-mode ac-inf-ruby auto-complete inf-ruby xkcd multiple-cursors magit elpy material-theme use-package))))
+    (projectile robe enh-ruby-mode web-mode auto-complete xkcd multiple-cursors magit elpy material-theme use-package))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -119,3 +119,18 @@
 ;;===========================================================
 
 (setq backup-directory-alist `(("." . "~/.saves")))
+
+;;===========================================================
+;; Robe Mode
+;;===========================================================
+
+(add-hook 'ruby-mode-hook 'robe-mode)
+
+;;===========================================================
+;; NeoTree
+;;===========================================================
+
+(add-to-list 'load-path "/Users/gabrielcarvalho/.emacs.d/neotree")
+  (require 'neotree)
+  (global-set-key [f8] 'neotree-toggle)
+    (setq neo-smart-open t)

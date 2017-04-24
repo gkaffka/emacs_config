@@ -1,0 +1,9 @@
+[submodule "el-get/inf-ruby"]
+	path = el-get/inf-ruby
+	url = https://github.com/nonsequitur/inf-ruby.git
+[submodule "n"]
+	path = el-get/robe-mode
+	url = https://github.com/dgutov/robe.git
+[submodule "neotree"]
+	path = neotree
+	url = https://github.com/jaypei/emacs-neotree.git
