@@ -1,1 +1,1 @@
-("~/.emacs.d/" "~/publishers-admin-api/")
+("~/olivetto-api/" "~/bookshelf/" "~/.emacs.d/" "~/publishers-admin-api/")
