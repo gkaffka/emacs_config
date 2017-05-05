@@ -1,9 +1,26 @@
 (require 'package) ;; You might already have this line
 
-(add-to-list 'package-archives
-             '("melpa" . "http://melpa.org/packages/") t)
+(setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
+                         ("melpa" . "https://melpa.org/packages/")))
 
-(package-initialize) ;; You might already have this line
+; activate all the packages (in particular autoloads)
+(package-initialize)
+
+; fetch the list of packages available
+(unless package-archive-contents
+  (package-refresh-contents))
+
+(setq package-list '(better-defaults
+                     projectile
+                     ruby-electric
+		     seeing-is-believing
+		     rbenv))
+
+
+; install the missing packages
+(dolist (package package-list)
+  (unless (package-installed-p package)
+    (package-install package)))
 
 ;; Tell emacs where is your personal elisp lib dir
 (add-to-list 'load-path "~/.emacs.d/lisp/")
@@ -12,11 +29,22 @@
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
 
-(if (not (package-installed-p 'use-package))
-    (progn
-      (package-refresh-contents)
-      (package-install 'use-package)))
-(require 'use-package)
+;; Show line numbers
+(global-linum-mode)
+
+;; Configures rbenv
+(global-rbenv-mode)
+(rbenv-use-corresponding)
+
+;; you really only need one of these
+(setq visible-bell nil)
+
+;; Initializes Seeing is believing
+(setq seeing-is-believing-prefix "C-.")
+(add-hook 'ruby-mode-hook 'seeing-is-believing)
+(add-hook 'ruby-mode-hook 'projectile-mode)
+(require 'seeing-is-believing)
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -24,7 +52,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (ruby-test-mode ac-inf-ruby projectile robe enh-ruby-mode web-mode auto-complete xkcd multiple-cursors magit elpy material-theme use-package))))
+    (helm-projectile helm ruby-test-mode ac-inf-ruby projectile robe enh-ruby-mode web-mode auto-complete xkcd multiple-cursors magit elpy material-theme use-package))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -103,11 +131,6 @@
 
 (setq backup-directory-alist `(("." . "~/.saves")))
 
-;;===========================================================
-;; Robe Mode
-;;===========================================================
-
-(add-hook 'ruby-mode-hook 'robe-mode)
 
 ;;===========================================================
 ;; NeoTree
@@ -123,7 +146,18 @@
 ;; Ruby Test mode
 ;;===========================================================
 
-(global-set-key (kbd "C-x t") 'ruby-test-run-file)
-(global-set-key (kbd "C-x SPC") 'ruby-test-run-file)
-(global-set-key (kbd "C-x C-SPC") 'ruby-test-run-test-at-point)
-(global-set-key (kbd "C-c t") 'ruby-test-toggle-implementation-and-specification)
+(global-set-key (kbd "C-x t") 'ruby-test-run-at-point)
+(global-set-key (kbd "C-x C-SPC") 'ruby-test-run)
+
+;;===========================================================
+;; Ruby Electric 
+;;===========================================================
+
+;; Autoclose paired syntax elements like parens, quotes, etc
+(add-hook 'ruby-mode-hook 'ruby-electric-mode)
+
+;;===========================================================
+;; Projectile
+;;===========================================================
+
+(global-set-key (kbd "s-f") #'projectile-find-file)
