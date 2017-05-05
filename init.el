@@ -24,7 +24,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (ac-inf-ruby projectile robe enh-ruby-mode web-mode auto-complete xkcd multiple-cursors magit elpy material-theme use-package))))
+    (ruby-test-mode ac-inf-ruby projectile robe enh-ruby-mode web-mode auto-complete xkcd multiple-cursors magit elpy material-theme use-package))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -74,23 +74,6 @@
   )
 
 ;;===========================================================
-;; El-get
-;;===========================================================
-
-(add-to-list 'load-path "~/.emacs.d/el-get/el-get")
-
-(unless (require 'el-get nil 'noerror)
-  (with-current-buffer
-      (url-retrieve-synchronously
-       "https://raw.githubusercontent.com/dimitri/el-get/master/el-get-install.el")
-    (goto-char (point-max))
-    (eval-print-last-sexp)))
-
-(add-to-list 'el-get-recipe-path "~/.emacs.d/el-get-user/recipes")
-(el-get 'sync)
-
-
-;;===========================================================
 ;; Adds more sites to webjump 
 ;;===========================================================
 
@@ -135,3 +118,12 @@
   (global-set-key [f8] 'neotree-toggle)
   (setq neo-smart-open t)
   (setq projectile-switch-project-action 'neotree-projectile-action)
+
+;;===========================================================
+;; Ruby Test mode
+;;===========================================================
+
+(global-set-key (kbd "C-x t") 'ruby-test-run-file)
+(global-set-key (kbd "C-x SPC") 'ruby-test-run-file)
+(global-set-key (kbd "C-x C-SPC") 'ruby-test-run-test-at-point)
+(global-set-key (kbd "C-c t") 'ruby-test-toggle-implementation-and-specification)

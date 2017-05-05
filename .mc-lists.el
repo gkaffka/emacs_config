@@ -3,6 +3,7 @@
 
 (setq mc/cmds-to-run-for-all
       '(
+	end-of-buffer
 	org-return
 	org-self-insert-command
 	))
