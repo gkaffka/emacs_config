@@ -1,26 +1,26 @@
 (require 'package) ;; You might already have this line
 
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
-                                                  ("melpa" . "https://melpa.org/packages/")))
+                         ("melpa" . "https://melpa.org/packages/")))
 
-; activate all the packages (in particular autoloads)
+                                        ; activate all the packages (in particular autoloads)
 (package-initialize)
 
-; fetch the list of packages available
+                                        ; fetch the list of packages available
 (unless package-archive-contents
-    (package-refresh-contents))
+  (package-refresh-contents))
 
 (setq package-list '(better-defaults
-                                           projectile
-                                                                ruby-electric
-                                                                             seeing-is-believing
-                                                                                          rbenv))
+                     projectile
+                     ruby-electric
+                     seeing-is-believing
+                     rbenv))
 
 
-; install the missing packages
+                                        ; install the missing packages
 (dolist (package package-list)
-    (unless (package-installed-p package)
-          (package-install package)))
+  (unless (package-installed-p package)
+    (package-install package)))
 
 ;; Tell emacs where is your personal elisp lib dir
 (add-to-list 'load-path "~/.emacs.d/lisp/")
@@ -46,19 +46,19 @@
 (require 'seeing-is-believing)
 
 (custom-set-variables
-   ;; custom-set-variables was added by Custom.
-    ;; If you edit it by hand, you could mess it up, so be careful.
-     ;; Your init file should contain only one such instance.
-      ;; If there is more than one, they won't work right.
-       '(package-selected-packages
-             (quote
-                   (helm-projectile helm ruby-test-mode ac-inf-ruby projectile robe enh-ruby-mode web-mode auto-complete xkcd multiple-cursors magit elpy material-theme use-package))))
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   (quote
+    (helm-projectile helm ruby-test-mode ac-inf-ruby projectile robe enh-ruby-mode web-mode auto-complete xkcd multiple-cursors magit elpy material-theme use-package))))
 (custom-set-faces
-   ;; custom-set-faces was added by Custom.
-    ;; If you edit it by hand, you could mess it up, so be careful.
-     ;; Your init file should contain only one such instance.
-      ;; If there is more than one, they won't work right.
-       )
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
 
 (use-package material-theme :ensure t :init (load-theme 'material :no-confirm))
 
@@ -70,17 +70,17 @@
 ;;============================================================
 
 (use-package elpy
-               :ensure t
-                 :init
-                   (elpy-enable))
+  :ensure t
+  :init
+  (elpy-enable))
 
 ;;===========================================================
 ;; Magit
 ;;============================================================
 
 (use-package magit
-               :ensure t
-                 :bind ("C-x g" . magit-status))
+  :ensure t
+  :bind ("C-x g" . magit-status))
 
 
 ;;===========================================================
@@ -95,33 +95,33 @@
 ;;============================================================
 
 (use-package multiple-cursors
-               :ensure t
-                 :bind (("C->" . mc/mark-next-like-this)
-                                 ("C-<" . mc/mark-previous-like-this)
-                                          ("C-c C-w" . mc/mark-all-like-this))
-                   )
+  :ensure t
+  :bind (("C->" . mc/mark-next-like-this)
+         ("C-<" . mc/mark-previous-like-this)
+         ("C-c C-w" . mc/mark-all-like-this))
+  )
 
 ;;===========================================================
 ;; Adds more sites to webjump 
 ;;===========================================================
 
 (require 'webjump)
-   (global-set-key "\C-cj" 'webjump)
-   (setq webjump-sites
-                  (append '(
-                                ("StackOverflow" .
-                                      [simple-query "http://stackoverflow.com"
-                                                               "http://stackoverflow.com/search?q=" ""])
+(global-set-key "\C-cj" 'webjump)
+(setq webjump-sites
+      (append '(
+                ("StackOverflow" .
+                 [simple-query "http://stackoverflow.com"
+                               "http://stackoverflow.com/search?q=" ""])
 
-                                           )
-                                           webjump-sample-sites))
+                )
+              webjump-sample-sites))
 
 ;;===========================================================
 ;; Auto-complete for Ruby
 ;;===========================================================
 
 (eval-after-load 'auto-complete
-                   '(add-to-list 'ac-modes 'inf-ruby-mode))
+  '(add-to-list 'ac-modes 'inf-ruby-mode))
 (add-hook 'inf-ruby-mode-hook 'ac-inf-ruby-enable)
 
 
@@ -137,10 +137,10 @@
 ;;===========================================================
 
 (add-to-list 'load-path "/Users/gabrielcarvalho/.emacs.d/neotree")
-  (require 'neotree)
-  (global-set-key [f8] 'neotree-toggle)
-  (setq neo-smart-open t)
-  (setq projectile-switch-project-action 'neotree-projectile-action)
+(require 'neotree)
+(global-set-key [f8] 'neotree-toggle)
+(setq neo-smart-open t)
+(setq projectile-switch-project-action 'neotree-projectile-action)
 
 ;;===========================================================
 ;; Ruby Test mode
@@ -154,6 +154,7 @@
 ;;===========================================================
 
 ;; Autoclose paired syntax elements like parens, quotes, etc
+
 (add-hook 'ruby-mode-hook 'ruby-electric-mode)
 
 ;;===========================================================

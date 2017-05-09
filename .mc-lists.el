@@ -3,12 +3,14 @@
 
 (setq mc/cmds-to-run-for-all
       '(
-	end-of-buffer
-	org-return
-	org-self-insert-command
-	))
+        end-of-buffer
+        org-return
+        org-self-insert-command
+        ))
 
 (setq mc/cmds-to-run-once
       '(
-	ignore
-	))
+        ignore
+        ruby-electric-delete-backward-char
+        ruby-electric-space/return
+        ))
