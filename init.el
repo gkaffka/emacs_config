@@ -25,7 +25,7 @@
 ;; Tell emacs where is your personal elisp lib dir
 (add-to-list 'load-path "~/.emacs.d/lisp/")
 
-;;Removes tollbars and scrolview
+;; Removes tollbars and scrolview
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
 
@@ -35,6 +35,9 @@
 ;; Configures rbenv
 (global-rbenv-mode)
 (rbenv-use-corresponding)
+
+;; Inits the delete-selection-mode
+(delete-selection-mode 1)
 
 ;; you really only need one of these
 (setq visible-bell nil)
@@ -130,6 +133,8 @@
 ;;===========================================================
 
 (setq backup-directory-alist `(("." . "~/.saves")))
+(setq auto-save-file-name-transforms
+          `((".*" ,temporary-file-directory t)))
 
 
 ;;===========================================================
