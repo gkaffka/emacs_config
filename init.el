@@ -55,7 +55,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (helm-projectile helm ruby-test-mode ac-inf-ruby projectile robe enh-ruby-mode web-mode auto-complete xkcd multiple-cursors magit elpy material-theme use-package))))
+    (magit ruby-tools ido-vertical-mode helm-projectile helm ruby-test-mode ac-inf-ruby projectile robe enh-ruby-mode web-mode auto-complete xkcd multiple-cursors elpy material-theme use-package))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -134,7 +134,7 @@
 
 (setq backup-directory-alist `(("." . "~/.saves")))
 (setq auto-save-file-name-transforms
-          `((".*" ,temporary-file-directory t)))
+      `((".*" ,temporary-file-directory t)))
 
 
 ;;===========================================================
@@ -167,3 +167,13 @@
 ;;===========================================================
 
 (global-set-key (kbd "s-f") #'projectile-find-file)
+
+
+;;===========================================================
+;; Ido - vertical - mode
+;;===========================================================
+
+(require 'ido-vertical-mode)
+(ido-mode 1)
+(ido-vertical-mode 1)
+(setq ido-vertical-define-keys 'C-n-and-C-p-only)
