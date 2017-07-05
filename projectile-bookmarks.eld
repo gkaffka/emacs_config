@@ -1,1 +1,0 @@
-("~/.emacs.d/" "~/olivetto-api/" "~/Documents/Ruby/" "~/publishers-admin-api/" "~/bookshelf/")

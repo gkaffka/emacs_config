@@ -1,0 +1,221 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/gabrielcarvalho/publishers-admin-api/app/clients/" . "locations_api/")
+ ("/ssh:pi@raspberrypi.local:/home/pi/" . "instant_button/")
+ ("/ssh:pi@raspberrypi.local:/home/" . "pi/")
+ ("/ssh:pi@raspberrypi.local:/" . "home/")
+ ("/Users/gabrielcarvalho/olivetto-api/spec/olivetto_api/resources/" . "listings/")
+ ("/Users/gabrielcarvalho/olivetto-api/spec/olivetto_api/" . "resources/")
+ ("/Users/gabrielcarvalho/olivetto-api/spec/" . "olivetto_api/")
+ ("/Users/gabrielcarvalho/Documents/var 2/log/eb-docker/containers/" . "eb-current-app/")
+ ("/Users/gabrielcarvalho/Documents/var 2/log/eb-docker/" . "containers/")
+ ("/Users/gabrielcarvalho/Documents/var 2/log/" . "healthd/")
+ ("/Users/gabrielcarvalho/Documents/var 2/" . "log/")
+ ("/Users/gabrielcarvalho/Documents/var/" . "log/")
+ ("/Users/gabrielcarvalho/Documents/" . "var 2/")
+ ("/Users/gabrielcarvalho/olivetto-api/lib/olivetto_api/helpers/" . "reports/")
+ ("/Users/gabrielcarvalho/publishers-admin-api/config/" . "environments/")
+ ("/Users/gabrielcarvalho/publishers-admin-api/app/" . "clients/")
+ ("/Users/gabrielcarvalho/publishers-admin-api/" . "app/")
+ ("/Users/gabrielcarvalho/vivareal-force-update-for-apps/Sources/ForceUpdate/" . "Controllers/")
+ ("/Users/gabrielcarvalho/vivareal-force-update-for-apps/Sources/" . "ForceUpdate/")
+ ("/Users/gabrielcarvalho/vivareal-force-update-for-apps/" . "Sources/")
+ ("/Users/" . "gabrielcarvalho/")
+ ("/" . "Users/")
+ ("/Users/gabrielcarvalho/olivetto-api/lib/olivetto_api/clients/" . "developments_api/")
+ ("/Users/gabrielcarvalho/olivetto-api/lib/olivetto_api/" . "clients/")
+ ("/Users/gabrielcarvalho/olivetto-api/lib/" . "olivetto_api/")
+ ("/Users/gabrielcarvalho/olivetto-api/" . "lib/")
+ ("/Users/gabrielcarvalho/" . "publishers-admin-api/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/gabrielcarvalho/publishers-admin-api/app/clients/locations_api/"
+ "/Users/gabrielcarvalho/publishers-admin-api/app/clients/"
+ "/Users/gabrielcarvalho/publishers-admin-api/config/environments/"
+ "/Users/gabrielcarvalho/olivetto-api/lib/olivetto_api/clients/developments_api/"
+ "/Users/gabrielcarvalho/instant_button/"
+ "/Users/gabrielcarvalho/Downloads/"
+ "/ssh:raspberrypi.local:"
+ "/Users/gabrielcarvalho/publishers-admin-api/config/"
+ "/ssh:pi@raspberrypi.local:/home/pi/instant_button/"
+ "/ssh:pi@"
+ "/Users/gabrielcarvalho/"
+ "/Users/gabrielcarvalho/.emacs.d/"
+ "/Users/gabrielcarvalho/publishers-admin-api/"
+ "/Users/gabrielcarvalho/publishers-admin-api/app/clients/columbus_api/"
+ "/Users/gabrielcarvalho/olivetto-api/"
+ "/Users/gabrielcarvalho/olivetto-api/spec/olivetto_api/resources/listings/"
+ "/Users/gabrielcarvalho/olivetto-api/config/"
+ "/Users/gabrielcarvalho/olivetto-api/lib/olivetto_api/helpers/reports/"
+ "/Users/gabrielcarvalho/Documents/var 2/log/"
+ "/Users/gabrielcarvalho/Documents/var 2/log/eb-docker/containers/eb-current-app/"
+ "/Users/gabrielcarvalho/Documents/var 2/log/nginx/"
+ "/Users/gabrielcarvalho/Documents/var 2/log/healthd/"
+ "/Users/gabrielcarvalho/Documents/var/log/"
+ "/Users/gabrielcarvalho/publishers-admin-api/bin/"
+ "/Users/gabrielcarvalho/olivetto-api/lib/olivetto_api/clients/big_brother_api/"
+ "/Users/gabrielcarvalho/vivareal-force-update-for-apps/Sources/ForceUpdate/"
+ "/Users/gabrielcarvalho/vivareal-force-update-for-apps/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "zipcode_response.rb"
+ "locations_api.rb"
+ "development.rb"
+ "health_check.rb"
+ "import_full.py"
+ "- (1).txt"
+ "import.py"
+ "application.yml.example"
+ "application.yml"
+ "teste.py"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/gabrielcarvalho/publishers-admin-api/app/clients/locations_api/" (22875 61691 0 0) "zipcode_response.rb" "states_and_cities.rb" "location_id.rb" "city_neighborhoods.rb" "area_attributes.rb" ".#zipcode_response.rb" "../" "./")
+
+ ("/Users/gabrielcarvalho/publishers-admin-api/app/clients/" (22875 61691 0 0) "record_types_api.rb" "products_api.rb" "price_api.rb" "poi_api.rb" "olivetto_api.rb" "obelix_api.rb" "media_api.rb" "matias_api.rb" "locations_api.rb" "locations_api/" "listings_quality_score_api.rb" "listings_api.rb" "leads_api_client/" "leads_api.rb" "leadr_api.rb" "lead_contact_checker_api.rb" "lead_contact_checker_api/" "images_api.rb" "hermes_api.rb" "feeds_statistics_api.rb" "feeds_api.rb" "developments_api.rb" "developments_api/" "contacts_api.rb" "concerns/" "columbus_api.rb" "columbus_api/" "big_brother_api.rb" "aws_api.rb" "accounts_api.rb" ".#aws_api.rb" "../" "./")
+
+ ("/Users/gabrielcarvalho/olivetto-api/" (22877 11412 0 0) "spec.apib" "spec/" "shoryuken.yml" "Relatório de leads.ecb06b.xlsx" "Relatório de leads.e57289.xlsx" "Relatório de leads.e432f1.xlsx" "Relatório de leads.d540e1.xlsx" "Relatório de leads.c66561.xlsx" "Relatório de leads.b9222f.xlsx" "Relatório de leads.a45ca7.xlsx" "Relatório de leads.9beb9a.xlsx" "Relatório de leads.8ff41c.xlsx" "Relatório de leads.7b5145.xlsx" "Relatório de leads.7b261b.xlsx" "Relatório de leads.6237f9.xlsx" "Relatório de leads.4fc86c.xlsx" "Relatório de leads.4f450f.xlsx" "Relatório de leads.4c2c13.xlsx" "Relatório de leads.4528bd.xlsx" "Relatório de leads.43dd27.xlsx" "Relatório de leads.1a6b10.xlsx" "Relatório de leads.12ca04.xlsx" "Relatório de leads.1053b2.xlsx" "README.md" "Rakefile" "public/" "log/" "lib/" "Jenkinsfile" "Gemfile.lock" "Gemfile" "Dockerfile" "deploy/" "db/" "coverage/" "config.ru" "config/" "circle.yml" "bin/" "apps/" ".ruby-version" ".rubocop.yml" ".rspec" ".hanamirc" ".gitignore" ".git/" ".env.test~" ".env.test.example" ".env.test" ".env.qa.example" ".env.production.example" ".env.development~" ".env.development.example" ".env.development" ".env.ci" ".#temp" ".#.env.development.example" "../" "./")
+
+ ("/Users/gabrielcarvalho/" (22870 43900 0 0) "vivareal-leads/" "vivareal-force-update-for-apps/" "vim-files/" "test.rb" "ruby-course/" "publishers-admin-api/" "Public/" "Pictures/" "olivetto-api/" "myspider.py" "Music/" "Movies/" "Library/" "Lander-/" "instant_button/" "heroku-colorscheme/" "Downloads/" "Documents/" "Desktop/" "data.txt" "bookshelf/" "Archive.zip" "Applications/" ".vimrc" ".viminfo" ".vim_runtime/" ".vim_mru_files" ".vim/" ".Trash/" ".subversion/" ".ssh/" ".saves/" ".rediscli_history" ".rbenv/" ".python_history" ".psql_history" ".pry_history" ".oracle_jre_usage/" ".matplotlib/" ".m2/" ".LiquidSky/" ".lesshst" ".lein/" ".iterm2_shell_integration.bash" ".iterm2/" ".hgignore_global" ".gradle/" ".gitignore_global" ".gitconfig" ".gervill/" ".gem/" ".emulator_console_auth_token" ".emacs.d/" ".DS_Store" ".dropbox/" ".docker/" ".cups/" ".CFUserTextEncoding" ".cache/" ".BurpSuite/" ".bundle/" ".bashrc" ".bash_sessions/" ".bash_profile~" ".bash_profile" ".bash_history" ".aws/" ".AndroidStudio2.1/" ".android/" ".#data.txt" "../" "./")
+
+ ("/Users/gabrielcarvalho/instant_button/" (22870 41733 0 0) "trial_extfs11.dmg" "sound.mp3" "kotlin-for-android-developers.pdf" "kotlin-for-android-developers.mobi" "import_full.py" "import.py" "button_listen.py~" "button_listen.py" "99.mp3" "98.mp3" "97.mp3" "96.mp3" "95.mp3" "94.mp3" "93.mp3" "92.mp3" "91.mp3" "90.mp3" "9.mp3" "89.mp3" "88.mp3" "87.mp3" "86.mp3" "85.mp3" "84.mp3" "83.mp3" "82.mp3" "81.mp3" "80.mp3" "8.mp3" "79.mp3" "78.mp3" "77.mp3" "76.mp3" "75.mp3" "74.mp3" "73.mp3" "72.mp3" "71.mp3" "70.mp3" "7.mp3" "69.mp3" "68.mp3" "67.mp3" "66.mp3" "65.mp3" "64.mp3" "63.mp3" "62.mp3" "61.mp3" "60.mp3" "6.mp3" "59.mp3" "58.mp3" "57.mp3" "56.mp3" "55.mp3" "54.mp3" "53.mp3" "52.mp3" "51.mp3" "50.mp3" "5.mp3" "49.mp3" "48.mp3" "47.mp3" "46.mp3" "45.mp3" "44.mp3" "43.mp3" "42.mp3" "41.mp3" "40.mp3" "4.mp3" "39.mp3" "38.mp3" "37.mp3" "36.mp3" "35.mp3" "34.mp3" "33.mp3" "32.mp3" "31.mp3" "30.mp3" "3.mp3" "29.mp3" "28.mp3" "27.mp3" "26.mp3" "25.mp3" "24.mp3" "23.mp3" "22.mp3" "21.mp3" "20.mp3" "2.mp3" "19.mp3" "18.mp3" "179.mp3" "178.mp3" "177.mp3" "176.mp3" "175.mp3" "174.mp3" "173.mp3" "172.mp3" "171.mp3" "170.mp3" "17.mp3" "169.mp3" "168.mp3" "167.mp3" "166.mp3" "165.mp3" "164.mp3" "163.mp3" "162.mp3" "161.mp3" "160.mp3" "16.mp3" "159.mp3" "158.mp3" "157.mp3" "156.mp3" "155.mp3" "154.mp3" "153.mp3" "152.mp3" "151.mp3" "150.mp3" "15.mp3" "149.mp3" "148.mp3" "147.mp3" "146.mp3" "145.mp3" "144.mp3" "143.mp3" "142.mp3" "141.mp3" "140.mp3" "14.mp3" "139.mp3" "138.mp3" "137.mp3" "136.mp3" "135.mp3" "134.mp3" "133.mp3" "132.mp3" "131.mp3" "130.mp3" "13.mp3" "129.mp3" "128.mp3" "127.mp3" "126.mp3" "125.mp3" "124.mp3" "123.mp3" "122.mp3" "121.mp3" "120.mp3" "12.mp3" "119.mp3" "118.mp3" "117.mp3" "116.mp3" "115.mp3" "114.mp3" "113.mp3" "112.mp3" "111.mp3" "110.mp3" "11.mp3" "109.mp3" "108.mp3" "107.mp3" "106.mp3" "105.mp3" "104.mp3" "103.mp3" "102.mp3" "101.mp3" "100.mp3" "10.mp3" "1.mp3" "0.mp3" ".git/" "../" "./")
+
+ ("/Users/gabrielcarvalho/Downloads/" (22870 41501 0 0) "udemy_09_01_2017_planilha.pdf" "udemy_09_01_2017.pdf" "Screenshot_20161206-104324.png" "push-notification-icon.zip" "push-notification-icon/" "Protocolo.pdf" "Protocolo-1.pdf" "Protocolo (1).pdf" "placeholder.zip" "placeholder/" "O mercado imobiliário.pptx" "no_data.svg" "listings.pdf" "listings-controller.pdf" "listings (1).pdf" "IMG_20170123_113823174.jpg" "IMG_20161025_144919337.jpg" "IMG_20160914_094219136.jpg" "IMG_20160914_094157566.jpg" "group_0.png" "Exemplo_de_pod_yaml_do_Vivactl.yaml" "Caso Dr. George.xlsx" "assets.zip" "acfrogdmgc9cgd6yfynxbez4ofcwiled4-vr3nvohp4tn034eu996_bhwu03oaukupbuzsxjcjgux0lji-7cpycp4afe7jihhfhbwf3ossrz5uy5stsaw9osnpxdads_.pdf" "ACFrOgA1oUbGKbE28AQq7EGUj1X3h8OXXHge2wyrlejQdVWHDiZtMABQimEBPt-dPIIfiYhgCDYc125zpZ2V4va9PhzkgSZLFzQ97guxFoZyxI9jfaZF62d_7nENY_M=.pdf" "50ba9c16-d4da-42ac-a44f-c0e5d519f9e7.jpg" "39512695880-IRPF-2016-2015-origi-imagem-recibo.pdf" "39512695880-IRPF-2016-2015-origi-imagem-declaracao.pdf" "0-neu-d4-c73fac4620105d9b4ba749f77808baaa.jpg" ".localized" ".DS_Store" ".#- (1).txt" "-.txt" "--2.txt" "--1.txt" "- (1).txt" "../" "./")
+
+ ("/Users/gabrielcarvalho/publishers-admin-api/app/controllers/v1/" (22869 26239 0 0) "zipcodes_controller.rb" "users_controller.rb" "signup_controller.rb" "sessions_controller.rb" "promotions_controller.rb" "products_controller.rb" "phone_leads_controller.rb" "permissions_controller.rb" "passwords_controller.rb" "onboarding_notification_controller.rb" "minisite_controller.rb" "media_controller.rb" "listings_statistics_controller.rb" "listings_controller.rb" "leads_statistics_controller.rb" "leads_controller.rb" "leadr_controller.rb" "join_controller.rb" "invitations_controller.rb" "health_checks_controller.rb" "geocodes_controller.rb" "feeds_statistics_controller.rb" "developments_controller.rb" "crm_controller.rb" "contacts_controller.rb" "cities_controller.rb" "campaigns_controller.rb" "account_controller.rb" "../" "./")
+
+ ("/Users/gabrielcarvalho/publishers-admin-api/config/" (22861 33428 0 0) "secrets.yml" "routes.rb" "rails_best_practices.yml" "puma_dev.rb" "puma.rb" "newrelic.yml" "mapping/" "locales/" "initializers/" "environments/" "environment.rb" "descriptions_service/" "database.yml.example" "database.yml" "database.ci.yml" "boot.rb" "application.yml.example" "application.yml" "application.rb" "../" "./")
+
+ ("/Users/gabrielcarvalho/publishers-admin-api/app/clients/columbus_api/" (22868 3269 0 0) "zipcode.rb" "place.rb" "health_check.rb" "../" "./")
+
+ ("/Users/gabrielcarvalho/publishers-admin-api/config/locales/" (22841 38353 0 0) "pt-BR/" "../" "./")
+
+ ("/Users/gabrielcarvalho/.emacs.d/" (22861 18197 0 0) "xkcd/" "snippets/" "projectile.cache" "projectile-bookmarks.eld" "neotree/" "lisp/" "init.el~" "init.el" "ido.last" "games/" "elpa/" "el-get/" "auto-save-list/" "ac-comphist.dat" ".mc-lists.el" ".gitmodules" ".git/" "../" "./")
+
+ ("/Users/gabrielcarvalho/publishers-admin-api/spec/clients/" (22860 21475 0 0) "record_types_api_spec.rb" "products_api_spec.rb" "price_api_spec.rb" "poi_api_spec.rb" "olivetto_api_spec.rb" "obelix_api_spec.rb" "media_api_spec.rb" "matias_api_spec.rb" "locations_api_spec.rb" "locations_api/" "listings_api_spec.rb" "leads_api_spec.rb" "leads_api_client/" "leadr_api_spec.rb" "lead_contact_checker_api/" "images_api_spec.rb" "hermes_api_spec.rb" "feeds_statistics_api_spec.rb" "feeds_api_spec.rb" "developments_api/" "contacts_api_spec.rb" "conserns/" "columbus_api_spec.rb" "big_brother_api_spec.rb" "aws_api_spec.rb" "accounts_api_spec.rb" "../" "./")
+
+ ("/Users/gabrielcarvalho/publishers-admin-api/spec/controllers/v1/" (22861 16941 0 0) "zipcodes_controller_spec.rb" "users_controller_spec.rb" "signup_controller_spec.rb" "sessions_controller_spec.rb" "promotions_controller_spec.rb" "products_controller_spec.rb" "phone_leads_controller_spec.rb" "permissions_controller_spec.rb" "passwords_controller_spec.rb" "onboarding_notification_controller_spec.rb" "minisite_controller_spec.rb" "media_controller_spec.rb" "listings_statistics_controller_spec.rb" "listings_controller_spec.rb" "leads_statistics_controller_spec.rb" "leads_controller_spec.rb" "leadr_controller_spec.rb" "join_controller_spec.rb" "invitations_controller_spec.rb" "health_checks_controller_spec.rb" "geocodes_controller_spec.rb" "feeds_statistics_controller_spec.rb" "developments_controller_spec.rb" "crm_controller_spec.rb" "contacts_controller_spec.rb" "cities_controller_spec.rb" "campaigns_controller_spec.rb" "account_controller_spec.rb" "../" "./")
+
+ ("/Users/gabrielcarvalho/publishers-admin-api/" (22860 22196 0 0) "tmp/" "spec/" "seed.sql" "requirements.txt" "README.md" "Rakefile" "public/" "log/" "lib/" "google-drive-credentials.json" "Gemfile.lock" "Gemfile" "docs/" "Dockerfile_NGINX_MRUBY" "Dockerfile_NGINX_LOCAL" "Dockerfile" "docker-files/" "docker-compose.yml.sample" "deploy.py" "db/" "coverage/" "config.ru" "config/" "circle.yml" "CHANGELOG.md" "build.sh" "bin/" "app/" "apiary.apib" ".rubocop_todo.yml" ".rubocop.yml" ".rspec-persistence.txt" ".rspec" ".rdoc_options" ".gitignore" ".git/" ".editorconfig" ".ebextensions/" ".dockerignore" "../" "./")
+
+ ("/Users/gabrielcarvalho/publishers-admin-api/app/controllers/" (22841 38353 0 0) "v2/" "v1/" "concerns/" "application_controller.rb" "../" "./")
+
+ ("/Users/gabrielcarvalho/olivetto-api/lib/olivetto_api/clients/developments_api/" (22860 20999 0 0) "show.rb" "patch.rb" "index.rb" "health_check.rb" "../" "./")
+
+ ("/Users/gabrielcarvalho/publishers-admin-api/spec/" (22841 38354 0 0) "workers/" "support/" "spec_helper.rb" "services/" "resources/" "rails_helper.rb" "notifications/" "normalizers/" "models/" "mocks/" "mapper/" "lib/" "forms/" "fixtures/" "factories/" "controllers/" "clients/" "cassettes/" "api_support_spec.rb" "../" "./")
+
+ ("/Users/gabrielcarvalho/publishers-admin-api/spec/controllers/" (22841 38353 0 0) "v2/" "v1/" "application_controller_spec.rb" "../" "./")
+
+ ("/Users/gabrielcarvalho/olivetto-api/spec/api/" (22782 19259 0 0) "features/" "controllers/" "../" "./")
+
+ ("/Users/gabrielcarvalho/olivetto-api/spec/api/controllers/" (22782 19259 0 0) "listings/" "health_checks/" "campaigns/" ".gitkeep" "../" "./")
+
+ ("/Users/gabrielcarvalho/olivetto-api/spec/api/controllers/campaigns/" (22859 63233 0 0) "update_spec.rb" "show_spec.rb" "shared_examples/" "report_spec.rb" "params/" "index_spec.rb" "deactivate_spec.rb" "create_spec.rb" "clone_spec.rb" "batch_report_spec.rb" "activate_spec.rb" "../" "./")
+
+ ("/Users/gabrielcarvalho/olivetto-api/lib/olivetto_api/interactors/" (22840 28363 0 0) "reports/" "notifications/" "listings/" "campaigns/" "../" "./")
+
+ ("/Users/gabrielcarvalho/olivetto-api/lib/olivetto_api/interactors/listings/" (22859 63097 0 0) "update.rb" "index.rb" "get_campaigns.rb" "get_campaign_leads.rb" "get.rb" "batch_update.rb" "batch_get.rb" "../" "./")
+
+ ("/Users/gabrielcarvalho/Documents/var 2/log/" (22857 20965 0 0) "yum.log" "nginx/" "messages" "healthd/" "eb-tools.log" "eb-publish-logs.log" "eb-docker/" "eb-commandprocessor.log" "eb-cfn-init.log" "eb-cfn-init-call.log" "eb-activity.log" "docker-events.log" "docker" "cron" "cloud-init.log" "cloud-init-output.log" "cfn-init.log" "cfn-init-cmd.log" "cfn-hup.log" "../" "./")
+
+ ("/Users/gabrielcarvalho/olivetto-api/spec/olivetto_api/resources/listings/" (22796 50116 0 0) "single_spec.rb" "list_spec.rb" "base_spec.rb" "../" "./")
+
+ ("/Users/gabrielcarvalho/olivetto-api/spec/olivetto_api/resources/" (22840 28363 0 0) "resourceable_spec.rb" "listings/" "error_spec.rb" "campaigns/" "builder_spec.rb" "../" "./")
+
+ ("/Users/gabrielcarvalho/olivetto-api/spec/olivetto_api/" (22803 20970 0 0) "workers/" "validators/" "resources/" "repositories/" "organizers/" "interactors/" "infrastructure/" "helpers/" "entities/" "clients/" "../" "./")
+
+ ("/Users/gabrielcarvalho/olivetto-api/spec/" (22796 50116 0 0) "support/" "spec_helper.rb" "olivetto_api/" "fixtures/" "features_helper.rb" "extensions/" "csv_loader/" "cassettes/" "api/" "../" "./")
+
+ ("/Users/gabrielcarvalho/olivetto-api/lib/olivetto_api/resources/" (22840 28363 0 0) "resourceable.rb" "listings/" "error.rb" "campaigns/" "builder.rb" "../" "./")
+
+ ("/Users/gabrielcarvalho/olivetto-api/lib/olivetto_api/resources/listings/" (22857 43784 0 0) "single.rb" "list.rb" "base.rb" "../" "./")
+
+ ("/Users/gabrielcarvalho/olivetto-api/config/" (22840 28363 0 0) "worker_boot.rb" "puma.rb" "newrelic.yml" "messages.yml" "locales/" "initializers/" "environment.rb" "boot.rb" "../" "./")
+
+ ("/Users/gabrielcarvalho/olivetto-api/lib/olivetto_api/clients/" (22840 28363 0 0) "hermes_api.rb" "hermes_api/" "developments_api.rb" "developments_api/" "big_brother_api.rb" "big_brother_api/" "../" "./")
+
+ ("/Users/gabrielcarvalho/olivetto-api/lib/olivetto_api/helpers/reports/" (22849 30967 0 0) "workbook.rb" "sheet.rb" "listing_sheet.rb" "listing_row.rb" "campaign_sheet.rb" "campaign_row.rb" "../" "./")
+
+ ("/Users/gabrielcarvalho/Documents/var 2/log/nginx/" (22849 37746 0 0) "error.log" "access.log" "../" "./")
+
+ ("/Users/gabrielcarvalho/Documents/var 2/log/healthd/" (22849 37746 0 0) "daemon.log" "../" "./")
+
+ ("/Users/gabrielcarvalho/Documents/var 2/log/eb-docker/containers/eb-current-app/" (22849 37746 0 0) "newrelic_agent.log" "bf3930bcf7a8-stdouterr.log" "a099741c547e-stdouterr.log" "../" "./")
+
+ ("/Users/gabrielcarvalho/Documents/var 2/log/eb-docker/containers/" (22849 37746 0 0) "eb-current-app/" "../" "./")
+
+ ("/Users/gabrielcarvalho/Documents/var 2/log/eb-docker/" (22849 37746 0 0) "containers/" "../" "./")
+
+ ("/Users/gabrielcarvalho/Documents/var 2/" (22849 37746 0 0) "log/" "../" "./")
+
+ ("/Users/gabrielcarvalho/Documents/" (22849 37746 0 0) "WhatsApp Image 2017-06-05 at 1.26.01 PM.jpeg" "webcrawler/" "WatchFace/" "vivareal-publishers-android/" "vivareal-owners-android-master/" "vivareal-owners-android-galery/" "vivareal-owners-android/" "vivareal-android/" "vivapro-model-android/" "vivadecora-android/" "viva-lib-android/" "var 2/" "var/" "TwitchApp/" "Tests/" "Sensor-Graph/" "selfie.jpg" "secreto-android-gradle/" "ScrapyTutorial/" "Ruby/" "rg_cpf.pdf" "Resume - Gabriel Kaffka.pdf" "pixabayapp/" "PedometerViva/" "myinstants.apk" "luz.pdf" "litecoin-0.13.2-osx.dmg" "listing-edition-page-android copy/" "listing-edition-page-android/" "listing-creator-android/" "leadr/" "kotlin/" "ic_info_black_24_px_2017-06-06.zip" "ic_info_black_24_px_2017-06-06/" "ic_forum_black_24_px_copy_2017-06-01.zip" "ic_forum_black_24_px_copy_2017-06-01/" "ic_forum_black_24_px_2017-06-01.zip" "ic_forum_black_24_px_2017-06-01/" "greenshed/" "googleslackbot/" "gif.gif" "driverslicence.02 PM.jpeg" "desafiovivareal/" "DaggerExample/" "comprovante.jpeg" "clean-architecture-example/" "Cat-Pentagram.jpg" "BundleLogs-1497469800124.zip" "BundleLogs-1497464932738.zip" "backup.dat" "AreaCalc/" "android-vision/" "Android-CleanArchitecture/" "android-architecture/" "android/" "1497368714222.jpg" ".localized" ".DS_Store" "../" "./")
+
+ ("/Users/gabrielcarvalho/Documents/var/log/" (22849 35153 0 0) "yum.log" "nginx/" "messages" "healthd/" "eb-tools.log" "eb-publish-logs.log" "eb-docker/" "eb-commandprocessor.log" "eb-cfn-init.log" "eb-cfn-init-call.log" "eb-activity.log" "docker-events.log" "docker" "cron" "cloud-init.log" "cloud-init-output.log" "cfn-init.log" "cfn-init-cmd.log" "cfn-hup.log" "../" "./")
+
+ ("/Users/gabrielcarvalho/Documents/var/" (22849 35153 0 0) "log/" "../" "./")
+
+ ("/Users/gabrielcarvalho/olivetto-api/apps/api/controllers/campaigns/" (22840 28363 0 0) "update.rb" "show.rb" "report.rb" "params/" "index.rb" "docs/" "deactivate.rb" "create.rb" "clone.rb" "batch_report.rb" "activate.rb" "../" "./")
+
+ ("/Users/gabrielcarvalho/olivetto-api/apps/api/controllers/" (22782 19258 0 0) "listings/" "health_checks/" "docs/" "campaigns/" ".gitkeep" "../" "./")
+
+ ("/Users/gabrielcarvalho/olivetto-api/apps/api/controllers/listings/" (22849 30837 0 0) "show.rb" "params/" "lowlight.rb" "index.rb" "highlight.rb" "docs/" "deactivate.rb" "activate.rb" "../" "./")
+
+ ("/Users/gabrielcarvalho/olivetto-api/lib/olivetto_api/helpers/" (22803 20970 0 0) "reports/" "../" "./")
+
+ ("/Users/gabrielcarvalho/publishers-admin-api/app/" (22841 38353 0 0) "workers/" "services/" "resources/" "notifications/" "normalizers/" "models/" "mapper/" "lib/" "forms/" "facade/" "exceptions/" "controllers/" "clients/" "../" "./")
+
+ ("/Users/gabrielcarvalho/publishers-admin-api/app/services/" (22841 38353 0 0) "users_service/" "team_service.rb" "sns_notification_service.rb" "signup_service/" "settings_service/" "password_recovery_service.rb" "password_instructions_service.rb" "login_service.rb" "last_login_service.rb" "invitations_service/" "invitation_service.rb" "descriptions_service/" "account_publishers_service.rb" "../" "./")
+
+ ("/Users/gabrielcarvalho/publishers-admin-api/app/services/descriptions_service/" (22841 38353 0 0) "suggestion/" "metadata/" "../" "./")
+
+ ("/Users/gabrielcarvalho/publishers-admin-api/app/services/descriptions_service/suggestion/" (22848 6183 0 0) "title.rb" "text.rb" "summary.rb" "processor.rb" "listing.rb" "factory.rb" "constants.rb" "benefits/" "../" "./")
+
+ ("/Users/gabrielcarvalho/olivetto-api/lib/olivetto_api/clients/big_brother_api/" (22840 28363 0 0) "leads_by_property.rb.orig" "leads_by_property.rb" "health_check.rb" "../" "./")
+
+ ("/Users/gabrielcarvalho/publishers-admin-api/bin/" (22841 38353 0 0) "sidekiqctl" "sidekiq" "setup" "rspec" "rake" "rails" "pumactl" "puma" "protoc" "bundle" "../" "./")
+
+ ("/Users/gabrielcarvalho/publishers-admin-api/db/" (22841 38353 0 0) "seeds.rb" "schema.rb" "migrate/" "../" "./")
+
+ ("/Users/gabrielcarvalho/publishers-admin-api/config/environments/" (22841 38353 0 0) "test.rb" "staging.rb" "production.rb" "development.rb" "../" "./")
+
+ ("/Users/gabrielcarvalho/olivetto-api/apps/" (22782 19258 0 0) "api/" "../" "./")
+
+ ("/Users/gabrielcarvalho/olivetto-api/apps/api/" (22796 51326 0 0) "controllers/" "config/" "application.rb" "../" "./")
+
+ ("/Users/gabrielcarvalho/olivetto-api/apps/api/config/" (22821 45073 0 0) "routes.rb" "../" "./")
+
+ ("/Users/gabrielcarvalho/.emacs.d/games/" (22831 7349 0 0) "tetris-scores" "../" "./")
+
+ ("/Users/gabrielcarvalho/olivetto-api/lib/olivetto_api/repositories/" (22821 60663 0 0) "listing_repository.rb" "lead_repository.rb" "campaign_repository.rb" "campaign_listing_repository.rb" ".gitkeep" "../" "./")
+
+ ("/Users/gabrielcarvalho/vivareal-force-update-for-apps/Sources/ForceUpdate/" (22828 12781 0 0) "VersionsManager.swift" "Platform.swift" "PeriodicRunner.swift" "ForceUpdateDroplet.swift" "ErrorTreatmentMiddleware.swift" "Controllers/" "Apps.swift" "../" "./")
+
+ ("/Users/gabrielcarvalho/vivareal-force-update-for-apps/Sources/Executable/" (22763 61486 0 0) "main.swift" "../" "./")
+
+ ("/Users/gabrielcarvalho/vivareal-force-update-for-apps/Sources/ForceUpdate/Controllers/" (22763 61486 0 0) "VersionsController.swift" "HealthCheckController.swift" "../" "./")
+
+ ("/Users/gabrielcarvalho/vivareal-force-update-for-apps/Sources/" (22763 61486 0 0) "ForceUpdate/" "Executable/" "../" "./")
+
+ ("/Users/gabrielcarvalho/vivareal-force-update-for-apps/Tests/" (22763 61486 0 0) "LinuxMain.swift" "ForceUpdateTests/" "../" "./")
+
+ ("/Users/gabrielcarvalho/vivareal-force-update-for-apps/Tests/ForceUpdateTests/" (22824 24971 0 0) "VersionsControllerTests.swift" "VersionsCheckerTests.swift" "RouterTests.swift" "HealthCheckControllerTests.swift" "ForceUpdateTests.swift" ".#ForceUpdateTests.swift" "../" "./")
+
+ ("/Users/gabrielcarvalho/vivareal-force-update-for-apps/" (22763 61486 0 0) "Tests/" "Sources/" "requirements.txt" "README.md" "publish.sh" "Public/" "Package.swift" "Dockerfile.test" "Dockerfile.local" "Dockerfile" "deploy.py" "circle.yml" "ci_script.sh" ".swiftlint.yml" ".swift-version" ".gitignore" ".git/" ".dockerignore" "../" "./")
+
+ ("/Users/gabrielcarvalho/olivetto-api/lib/olivetto_api/" (22803 20970 0 0) "workers/" "validators/" "resources/" "repositories/" "organizers/" "mailers/" "interactors/" "infrastructure/" "helpers/" "entities/" "clients/" "../" "./")
+
+ ("/Users/gabrielcarvalho/olivetto-api/lib/" (22796 50116 0 0) "olivetto_api.rb" "olivetto_api/" "extensions/" "csv_loader.rb" "csv_loader/" "../" "./")
+
+ ("/Users/" (22542 23774 0 0) "Shared/" "gabrielcarvalho/" ".localized" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

@@ -3,6 +3,7 @@
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
                          ("melpa" . "https://melpa.org/packages/")))
 
+
                                         ; activate all the packages (in particular autoloads)
 (package-initialize)
 
@@ -22,8 +23,18 @@
   (unless (package-installed-p package)
     (package-install package)))
 
+
+(setq package-list '(better-defaults
+                     projectile-mode
+                     ruby-electric))
+
+(package-initialize) ;; You might already have this line
+
 ;; Tell emacs where is your personal elisp lib dir
 (add-to-list 'load-path "~/.emacs.d/lisp/")
+
+;; Disable automatic encoding comment
+(setq ruby-insert-encoding-magic-comment nil)
 
 ;; Removes tollbars and scrolview
 (tool-bar-mode -1)
@@ -73,17 +84,17 @@
 ;;============================================================
 
 (use-package elpy
-  :ensure t
-  :init
-  (elpy-enable))
+	     :ensure t
+	     :init
+	     (elpy-enable))
 
 ;;===========================================================
 ;; Magit
 ;;============================================================
 
 (use-package magit
-  :ensure t
-  :bind ("C-x g" . magit-status))
+	     :ensure t
+	     :bind ("C-x g" . magit-status))
 
 
 ;;===========================================================
@@ -98,11 +109,11 @@
 ;;============================================================
 
 (use-package multiple-cursors
-  :ensure t
-  :bind (("C->" . mc/mark-next-like-this)
-         ("C-<" . mc/mark-previous-like-this)
-         ("C-c C-w" . mc/mark-all-like-this))
-  )
+	     :ensure t
+	     :bind (("C->" . mc/mark-next-like-this)
+		    ("C-<" . mc/mark-previous-like-this)
+		    ("C-c C-w" . mc/mark-all-like-this))
+	     )
 
 ;;===========================================================
 ;; Adds more sites to webjump 
@@ -142,6 +153,7 @@
 ;;===========================================================
 
 (add-to-list 'load-path "/Users/gabrielcarvalho/.emacs.d/neotree")
+
 (require 'neotree)
 (global-set-key [f8] 'neotree-toggle)
 (setq neo-smart-open t)
@@ -150,6 +162,7 @@
 ;;===========================================================
 ;; Ruby Test mode
 ;;===========================================================
+
 
 (global-set-key (kbd "C-x t") 'ruby-test-run-at-point)
 (global-set-key (kbd "C-x C-SPC") 'ruby-test-run)
@@ -177,3 +190,24 @@
 (ido-mode 1)
 (ido-vertical-mode 1)
 (setq ido-vertical-define-keys 'C-n-and-C-p-only)
+
+
+;; ==========================================================
+;; Auto complete
+;; ==========================================================
+
+(use-package auto-complete
+	     :ensure t
+	     :config
+	     (require 'auto-complete-config)
+	     (add-to-list 'ac-dictionary-directories
+			  "~/.emacs.d/elpa/auto-complete-20160827.649/dict")
+	     (ac-config-default)
+	     (setq ac-ignore-case nil)
+	     (add-to-list 'ac-modes 'enh-ruby-mode)
+	     (add-to-list 'ac-modes 'web-mode))
+
+(global-set-key (kbd "C-x t") 'ruby-test-run-file)
+(global-set-key (kbd "C-x SPC") 'ruby-test-run-file)
+(global-set-key (kbd "C-x C-SPC") 'ruby-test-run-test-at-point)
+(global-set-key (kbd "C-c t") 'ruby-test-toggle-implementation-and-specification)
